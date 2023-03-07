@@ -16,7 +16,7 @@ let triggerHandler = function(){
 //fetcher
 
 let fetchEmojiFacePositive = function(queryURL){
-    fetch(queryURL)
+    get(queryURL)
     .then((response) =>{
         return response.json()
     })
