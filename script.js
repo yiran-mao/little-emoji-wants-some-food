@@ -16,7 +16,7 @@ let triggerHandler = function(){
 //fetcher
 
 let fetchEmojiFacePositive = function(queryURL){
-    fetch(queryURL)
+    fetch(queryURL, { mode: 'no-cors'})
     .then((response) =>{
         return response.json()
     })
