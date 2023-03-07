@@ -4,7 +4,7 @@ let randomMealURL = "https://www.themealdb.com/api/json/v1/1/random.php"
 let mealSection = document.getElementById("mealSection")
 let queryURL = "https://emojihub.yurace.pro/api/random/group/face-neutral"
 let emojiURL = "https://emojihub.yurace.pro/api/random/group/"
-var emojiGroup = "face_neutral"
+var emojiGroup = "face-neutral"
 let emojiSection = document.getElementById("emojiSection")
 
 //functions
