@@ -79,8 +79,8 @@ let fetchRandomMeal = function(){
 
 //handler
 
-let emojiDataHandler = function(emojiData){
-    while(emojiSection.firstChild){
+function emojiDataHandler(emojiData) {
+    while (emojiSection.firstChild) {
         emojiSection.removeChild(emojiSection.firstChild)
     }
     let emoji = emojiData.htmlCode
@@ -121,10 +121,5 @@ let mealDataHandler = function(mealData){
     return category;
 }
 
-
-
-
-
-
 //events
-triggerButton.addEventListener('click', triggerHandler)
+triggerButton.addEventListener('click', triggerHandler);
